@@ -24,13 +24,14 @@ This project is designed to analyze Instagram reach and engagement metrics to ga
 - **Data Collection:** Collecting and cleaning Instagram data related to reach and engagement.
 - **Exploratory Data Analysis (EDA):** Visualizing and understanding patterns and relationships in data.
 - **Predictive Modeling:** Building regression models to predict impressions based on metrics like likes, comments, shares, and saves.
-- **Comparative Analysis:** Benchmarking performance against popular car brands (e.g., Toyota, Mercedes-Benz, Tesla) for insights on industry standards.
 - **Data Visualization:** Creating insightful visualizations for better data interpretation.
 - **Feature Importance Analysis:** Identifying key factors that influence Instagram impressions.
 
 ## Data Collection
 
-Data was collected from publicly available Instagram profiles of various car brands for a comparative analysis. You can replace this data with your own Instagram metrics using available APIs or manual extraction.
+Data Collection
+
+The data for this analysis is gathered from Instagram's reach metrics. It includes metrics on post engagement, follower count, and other related data.
 
 ## Data Preprocessing
 
@@ -49,8 +50,7 @@ The EDA phase involved visualizing various metrics to identify patterns and rela
 ## Modeling and Prediction
 
 A predictive model was built to estimate the number of impressions based on other metrics using machine learning algorithms. The models used include:
-- **Linear Regression**
-- **Random Forest Regressor**
+
 - **Passive-Aggressive Regressor** (or any other relevant models based on the experiments)
 
 The model’s performance was evaluated based on metrics like Mean Squared Error (MSE) and R² score.
@@ -59,7 +59,7 @@ The model’s performance was evaluated based on metrics like Mean Squared Error
 
 The analysis provided insights into:
 - The most influential metrics for driving impressions.
-- The engagement performance of popular car brands as a benchmark.
+- The final section of the notebook discusses findings and insights from the EDA and model predictions, helping users understand key factors influencing Instagram reach.
 - Suggestions on how to improve Instagram reach based on data findings.
 
 ## Installation
@@ -82,3 +82,12 @@ The analysis provided insights into:
 1. **Data Preparation:** Replace the sample data in the `data/` folder with your own Instagram metrics if you want to analyze personal or brand-specific data.
 2. **Run the Analysis Notebook:** Open the Jupyter notebook `Instagram_Reach_Analysis.ipynb` and follow the steps to perform data analysis and modeling.
 3. **Model Prediction:** Once the model is trained, use it to predict impressions or other metrics for new data points by updating the sample data or adjusting parameters.
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request if you have suggestions or improvements.
+
+## License
+
+This project is open-source and available under the MIT License.
+
